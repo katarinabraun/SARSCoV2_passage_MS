@@ -1,0 +1,16 @@
+file	product	site	ref_nt	maj_nt	position_in_codon	overlapping_ORFs	codon_start_site	codon	pi	gdiv	class_vs_ref	class	coverage	A	C	G	T
+temp_vcf4_primary_NP_swab.vcf	N	29266	C	T	3	0	29264	ACC	0.0402153967518993	0.0400978078725078	Synonymous	Synonymous	342	0	7	0	335
+temp_vcf4_primary_NP_swab.vcf	ORF1a	1236	A	A	2	0	1235	GAT	0.0743218134522482	0.0739644970414202	Nonsynonymous	Nonsynonymous	208	200	0	8	0
+temp_vcf4_primary_NP_swab.vcf	ORF1a	2921	G	G	1	0	2921	GTA	0.0600084088216183	0.05982319768328	Nonsynonymous	Nonsynonymous	324	0	0	314	10
+temp_vcf4_primary_NP_swab.vcf	ORF1a	3186	A	A	2	0	3185	GAG	0.0251535631513266	0.0251215611625843	Nonsynonymous	Nonsynonymous	786	776	0	10	0
+temp_vcf4_primary_NP_swab.vcf	ORF1a	3618	T	T	2	0	3617	GTC	0.0644536652835408	0.0641862226890033	Nonsynonymous	Nonsynonymous	241	0	8	0	233
+temp_vcf4_primary_NP_swab.vcf	ORF1a	7027	G	G	3	0	7025	ATG	0.129101145408659	0.127835447904652	Nonsynonymous	Nonsynonymous	102	0	0	95	7
+temp_vcf4_primary_NP_swab.vcf	ORF1a	8354	C	C	1	0	8354	CGT	0.223815732290309	0.221918988796323	Nonsynonymous	Nonsynonymous	118	0	103	15	0
+temp_vcf4_primary_NP_swab.vcf	ORF1a	8922	C	C	2	0	8921	CCT	0.0595265456216962	0.0592666043744399	Nonsynonymous	Nonsynonymous	229	0	222	0	7
+temp_vcf4_primary_NP_swab.vcf	ORF1a	11335	G	G	3	0	11333	GTG	0.321146953405018	0.32	Synonymous	Synonymous	280	0	0	224	56
+temp_vcf4_primary_NP_swab.vcf	ORF1a	12249	C	C	2	0	12248	GCA	0.0282208588957055	0.0281632653061223	Nonsynonymous	Nonsynonymous	490	0	483	7	0
+temp_vcf4_primary_NP_swab.vcf	ORF1b	15453	T	T	3	0	15451	GGT	0.0612258340743668	0.0610504018850422	Synonymous	Synonymous	349	0	0	11	338
+temp_vcf4_primary_NP_swab.vcf	ORF1b	15457	C	C	1	0	15457	CTA	0.0561376622078593	0.0559758822014964	Synonymous	Synonymous	347	0	337	0	10
+temp_vcf4_primary_NP_swab.vcf	ORF1b	16577	G	G	2	0	16576	TGG	0.114735137635901	0.11386593204775	Nonsynonymous	Nonsynonymous	132	8	0	124	0
+temp_vcf4_primary_NP_swab.vcf	ORF1b	16580	C	C	2	0	16579	ACA	0.114735137635901	0.11386593204775	Nonsynonymous	Nonsynonymous	132	8	124	0	0
+temp_vcf4_primary_NP_swab.vcf	ORF1b	20950	G	G	1	0	20950	GAT	0.176979882862236	0.17583066284365	Nonsynonymous	Nonsynonymous	154	0	0	139	15

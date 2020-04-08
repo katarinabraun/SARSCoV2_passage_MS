@@ -1,0 +1,9 @@
+SNPGenie parameter log.
+
+MINIMUM ALLELE FREQUENCY: Default used; all SNPs included
+SLIDING WINDOW LENGTH: None
+MULTI-FASTA MODE: Default used; No
+SNP REPORTS: User submitted file: /Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_derived/figure5_π/VCFs_adjusted_numbering/p2b_vero76.vcf
+REFERENCE FASTA FILE: User submitted file: /Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_derived/figure5_π/refs_and_GTFs/SARS2_whole-genome.fasta
+GTF FILE: User submitted file: /Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_derived/figure5_π/refs_and_GTFs/SARS2_whole-genome.gtf
+COMPLEMENT MODE: No
