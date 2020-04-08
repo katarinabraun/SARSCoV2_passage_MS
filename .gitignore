@@ -1,1 +1,3 @@
 .DS_Store
+data_raw/Illumina_FASTQ/*
+data_raw/ONT_FASTQ/*

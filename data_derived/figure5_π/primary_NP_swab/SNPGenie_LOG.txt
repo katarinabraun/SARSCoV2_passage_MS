@@ -1,0 +1,7 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Tue Apr  7 11:43:15 2020
+temp_vcf4_primary_NP_swab.vcf	N	29266	The reference nucleotide in the SNP Report does not match the FASTA file. Results at this site are unreliable: proceed with caution, and consider re-calling SNPs (or fixing the SNP Reports) to address the issue.
+temp_vcf4_primary_NP_swab.vcf	ORF1a	6617	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+temp_vcf4_primary_NP_swab.vcf	ORF1b	19579	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+temp_vcf4_primary_NP_swab.vcf	S	24557	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+NA	NA	NA	SNPGenie completed at local time Tue Apr  7 11:43:32 2020. The process took 17.00 secs, i.e., 0 mins and 17.00 secs

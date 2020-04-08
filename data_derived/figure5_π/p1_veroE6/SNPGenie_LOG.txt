@@ -1,0 +1,6 @@
+file	product	site	LOG
+NA	NA	NA	SNPGenie initiated at local time Tue Apr  7 11:38:23 2020
+temp_vcf4_p1_veroE6.vcf	ORF1a	3263	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+temp_vcf4_p1_veroE6.vcf	ORF1b	18958	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+temp_vcf4_p1_veroE6.vcf	S	24983	No SNPs in >=1000 contiguous codons. If this was unexpected, you may need to specify Unix (\n) newline characters! See Troubleshooting
+NA	NA	NA	SNPGenie completed at local time Tue Apr  7 11:38:41 2020. The process took 18.00 secs, i.e., 0 mins and 18.00 secs
