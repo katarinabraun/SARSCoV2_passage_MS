@@ -8,6 +8,12 @@ This file contains the config parameters as well as the commands necessary to re
 
 **Importantly, this directory contains a `sniffles.py` script which takes in the bam files available in the `data_raw` directory.**. The `-B` flag should be used to indicate that the input is alignment `bams`, instead of paired-end FASTQs. 
 
+This pipeline runs best when each bam file is placed in its own directory and that directory has the same root name as the bam files. Then the input directory should be the the directory that contains each of these directories. 
+
+For example the command would look like this: 
+
+```python sniffles.py -c /path/to/config.yml -B -i /path/to/dir/containing/one/bam/per/dir/named/identically/to/root/bam-file/name```
+
 ## Table of Contents
 * [Requirements](#requirements)
 * [Installing](#installing)
