@@ -25,7 +25,7 @@ The numbering schemes in input VCFs differs between the Illumina and ONT files.
 ## Input: 
 
 1. SNV files in VCF format (output from `Sniffles`) located here: 
-    - `SARSCoV2_passage_MS/data_derived/figure3_SNVs/VCFs_Illumina/*` (6 files)
+    - `SARSCoV2_passage_MS/figures/*` (6 files)
     
 2. SNV files in VCF format (output from the ONT pipeline) located here: 
     - `SARSCoV2_passage_MS/data_derived/figure3_SNVs/VCFs_ONT/*` (6 samples) 
@@ -40,3 +40,8 @@ The numbering schemes in input VCFs differs between the Illumina and ONT files.
 
 3. One plot for index SNPs and one plot for contact SNPs will be found here:   
     - `SARSCoV2_passage_MS/data_derived/figures/figure3.pdf`
+    
+## Before running this notebook ...: 
+
+It is a good idea to update matplotlib from the command line: `conda update matplotlib`
+    
