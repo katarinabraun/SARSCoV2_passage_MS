@@ -91,6 +91,16 @@ Example usage:
 python sniffles.py -c config.yml -B -i Volumes/bams
 ```
 
+### Run the above command for each of the following files: 
+
+For each of the following files: 
+1. p1_vero76
+2. p1_veroE6
+3. p1_veroSTAT1KO
+4. p2a_vero76
+5. p2b_vero76
+6. primary_NP_swab
+
 ## Input 
 
 Raw fastQ files:  
@@ -108,7 +118,7 @@ GTF file:
 ## Output 
 
 All output files are written to:  
-`SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/output/*`
+`SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/from_bams/[sample_name]/*`
 
 ## Config file parameters  
 
@@ -218,14 +228,4 @@ postprocessing:
   #sliding window size for SNPGenie analysis (# of codons)
   slidingwindow: 50
 ```
-
-## Command
-
-For each of the following files: 
-1. p1_vero76
-2. p1_veroE6
-3. p1_veroSTAT1KO
-4. p2a_vero76
-5. p2b_vero76
-6. primary_NP_swab
 
