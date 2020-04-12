@@ -1,6 +1,6 @@
 # Raw Data 
 
-All raw data can be found at this bioproject: (PRJNA607948)[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA607948/]    
+All raw data can be found at this bioproject: [PRJNA607948](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA607948/)    
 
 This bioproject contains FASTQs that have been mapped to reference (MT039887.1) and converted from an alignment file-type back to a FASTQ. We did this to ensure we were not uploading any contaminating human reads. 
 
