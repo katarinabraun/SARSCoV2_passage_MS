@@ -1,4 +1,4 @@
-## SARS-CoV-2 diversity is limited intrahost and following passage in cell culture
+## Limited SARS-CoV-2 diversity within hosts and following passage in cell culture
 
 Authors: Gage K. Moreno1*, Katarina M. Braun2*, Peter J. Halfmann2, Trent M. Prall1, Yoshihiro Kawaoka2, Thomas C. Friedrich2,3, David H. O’Connor1,3 
 
