@@ -1,6 +1,6 @@
 # Limited SARS-CoV-2 diversity within hosts and following passage in cell culture
 
-**Gage K. Moreno**^1*, **Katarina M. Braun**^2*, Peter J. Halfmann^2, Trent M. Prall^1, Kasen K. Riemersma^2, Yoshihiro Kawaoka^2, Thomas C. Friedrich^2^,^3, David H. O’Connor^1^,^3 
+**Gage K. Moreno**<sup>1*</sup>, **Katarina M. Braun**<sup>2*</sup>, Peter J. Halfmann<sup>2</sup>, Trent M. Prall<sup>1</sup>, Kasen K. Riemersma<sup>2</sup>, Yoshihiro Kawaoka<sup>2</sup>, Thomas C. Friedrich<sup>2,3</sup>, David H. O’Connor<sup>1,3</sup> 
 
 \* **These authors contributed equally to this work**  
 
