@@ -8,7 +8,7 @@ Authors: Kelsey Florek, Joe Lalli, modified slightly for SARS-CoV-2 input by Kat
 
 This file contains the config parameters as well as the commands necessary to replicate the analysis we've done for this paper.
 
-**Importantly, this directory contains a `sniffles.py` script which takes in the bam files available in the `data_raw` directory.**. The `-B` flag should be used to indicate that the input is alignment `bams`, instead of paired-end FASTQs. 
+**Importantly, this directory contains a `sniffles.py` script which takes in the bam files available in the `data_raw` directory.** The `-B` flag should be used to indicate that the input is alignment `bams`, instead of paired-end FASTQs. 
 
 
 ## Table of Contents
