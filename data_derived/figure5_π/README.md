@@ -5,6 +5,22 @@
 ## Overview
 - The purpose of this script is to generate genewise nucleotide diversity (π) using the SNPGenie script and then to gnerate plots to visualize and compare genewise πS (synonymous diversity) and πN (nonsynonymous diversity). 
 
+## Dependencies 
+- pandas
+- numpy
+- matplotlib
+- glob
+- os
+- functools
+- pandas
+- itertools
+- glob
+- os
+- sklearn 
+- pysam
+- random 
+- seaborn 
+
 First, this notebook will go over syntax to run (SNPGenie)[https://github.com/chasewnelson/SNPGenie]. SNPGenie is a collection of Perl scripts for estimating πN/πS, dN/dS, and gene diversity from next-generation sequencing (NGS) single-nucleotide polymorphism (SNP) variant data. 
 
 WITHIN-POOL ANALYSIS. Use snpgenie.pl, the original SNPGenie. Analyzes within-sample πN/πS from pooled NGS SNP data. SNP reports (VCF) must each correspond to a single population/pool, with variants called relative to one reference sequence (one sequence in one FASTA file).
