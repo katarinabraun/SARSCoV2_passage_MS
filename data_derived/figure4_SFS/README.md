@@ -5,6 +5,19 @@
 ## Overview
 This notebook plots SNV frequency spectrums. It pulls SNVs and their frequencies from the `-cleaned.csv` files that were generated in the `SNVs.ipynb` script. 
 
+## Dependencies 
+- pandas
+- numpy
+- matplotlib
+- glob
+- os
+- functools
+- pandas
+- itertools
+- glob
+- os
+- sklearn 
+
 ### A useful description regarding the interpretation of these analyses 
 **From Moncla et al, 2019, bioRxiv (https://doi.org/10.1101/683151):**  
 "Purifying selection removes new variants from the population, generating an excess of low-freq variants, while positive selection promotes accumulation of high-frequency polymorphisms. Exponential population expansion also causes excess low-frequency variation; however, while selection disproportionately affects nonsynonymous variants, demographic factors affect synonymous and nonsynonymous variants equally."
