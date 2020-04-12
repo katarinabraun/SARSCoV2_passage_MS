@@ -25,7 +25,7 @@ The `figures` directory contains the output from all above scripts and `figures/
 **How to use this repository**: 
 
 After downloading or cloning this repository, here's the recommended order of operations: 
-1. Grab the raw data from this bioproject (PRJNA607948)[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA607948/]    
+1. Grab the raw data from this bioproject [PRJNA607948](ttps://www.ncbi.nlm.nih.gov/bioproject/PRJNA607948/)    
 - This bioproject contains FASTQs that have been mapped to reference (MT039887.1) and converted from an alignment file-type back to a FASTQ. We did this to ensure we were not uploading any contaminating human reads. The FASTQs from this bioproject can be fed directly into the ONT pipeline. The Illumina pipeline is configured to take in bams, instead of FASTQs, so these bam files to feed into the Illumina pipeline can be found in this repository – `data_raw/Illumina_bams/*`. 
 2. The ONT and Illumina pipelines can be found in `data_pipelines`. There are READMEs in each directory with detailed instructions about how to run these pipelines. These pipelines will spit out VCF files that are input for secondary analyses. 
 3. All secondary analyses and scripts to generate figures can be found in `data_derived`. All VCFs, generated from the aforementioned pipelines, can already be found in this directory so there is no need to re-run the pipelines if you are only interested in replicating figures. All analyses and figures were written in Jupyter Notebooks so each step (seperated into cells) can be run independently. 
