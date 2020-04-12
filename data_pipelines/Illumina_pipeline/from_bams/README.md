@@ -1,6 +1,7 @@
 # Sniffles
 
-Authors: Kelsey Florek, Joe Lalli, modified slightly for SARS-CoV-2 input by Katarina Braun. 
+Sniffles was written by Dr. Kelsey Florek and Joe Lalli.  
+Instructions for use have been modified here to ensure data, analyses, and figures can be reproduced.  
 
 **This is the first script that should be run to replicate analyses and figure-generation for the Illumina data.**
 
