@@ -30,7 +30,7 @@ After downloading or cloning this repository, here's the recommended order of op
 2. The ONT and Illumina pipelines can be found in `data_pipelines`. There are READMEs in each directory with detailed instructions about how to run these pipelines. These pipelines will spit out VCF files that are input for secondary analyses. 
 3. All secondary analyses and scripts to generate figures can be found in `data_derived`. All VCFs, generated from the aforementioned pipelines, can already be found in this directory so there is no need to re-run the pipelines if you are only interested in replicating figures. All analyses and figures were written in Jupyter Notebooks so each step (seperated into cells) can be run independently. 
 
-**Contacts if you have questions:**
+**Contacts us if you have questions:**
 
 Please reach out to us if you have any questions about anything in this repository! We've done our best to make all data, derived data, and scripts available and as reproducible as possible, but we are still developing our bioinformatic skills so we apologize in advance if some things are a bit clunky. 
 
