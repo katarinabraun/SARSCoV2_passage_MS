@@ -79,7 +79,7 @@ Naming schemes for the input files are important for getting this pipeline to ru
   - `referenceSequences: ["primary_NP_swab.fasta"]`
   - `gtfFileNames: ["primary_NP_swab.gtf"]`
 
-Additionally, the bam file being fed into the pipeline, `primary_NP_swab.bm` should be contained within a directory that is named `primary_NP_swab` and the directory that contains this dictory should be fed into the command. For example, if the location of the bam is `Volumes/bams/primary_NP_swab/primary_NP_swab.bam`, the -i flag should be followed by `Volumes/bams`. 
+Additionally, the bam file being fed into the pipeline, `primary_NP_swab.bam` should be contained within a directory that is named `primary_NP_swab` and the directory that contains this dictory should be fed into the command. For example, if the location of the bam is `Volumes/bams/primary_NP_swab/primary_NP_swab.bam`, the -i flag should be followed by `Volumes/bams`. 
 
 The command should be run from the directory that contains `sniffles.py`, `config.yml`, etc. 
 
