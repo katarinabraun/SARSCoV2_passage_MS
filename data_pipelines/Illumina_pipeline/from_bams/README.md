@@ -1,5 +1,7 @@
 # Sniffles
 
+Authors: Kelsey Florek, Joe Lalli. 
+
 **This is the first script that should be run to replicate analyses and figure-generation for the Illumina data.**
 
 `Sniffles` is a pipeline originally written for the analysis of influenza genomes, but we've modified it here for the analysis of SARS-CoV-2 viruses. It's a configurable pipeline that performs multiple functions to generate variant and consensus level information. It requires minimal dependencies as the pipeline relies on a docker container to host the software.
