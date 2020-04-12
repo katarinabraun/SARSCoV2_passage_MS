@@ -73,7 +73,7 @@ Before running this pipeline, navigate to the directory which contains
 
 Naming schemes for the input files are important for getting this pipeline to run. Specifically, the reference and GTF files should contain the same rootname as the rootname of the bam file that is being fed into the file. For example, when running the `primary_NP_swab` sample, the reference fasta should be named `primary_NP_swab.fasta` and the GTF should be named `primary_NP_swab.gtf`. 
 - The ref and and gtf have to be updated with each sample. The file itself does not need to be updated, just the names of these files.
-- These filenames as well as the input file should be updated in the config file: 
+- These filenames should also be updated in the config file: 
   - `outdir: 'primary_NP_swab'`
   - `logfile: 'primary_NP_swab_logs.log'`
   - `referenceSequences: ["primary_NP_swab.fasta"]`
