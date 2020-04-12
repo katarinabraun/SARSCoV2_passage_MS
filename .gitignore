@@ -1,3 +1,4 @@
 .DS_Store
 data_raw/ONT_FASTQ/*
 data_pipelines/Illumina_pipeline/.ipynb_checkpoints/
+data_derived/figure6_ONTvsIllumina/.ipynb_checkpoints/
