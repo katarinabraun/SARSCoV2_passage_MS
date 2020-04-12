@@ -227,13 +227,3 @@ For each of the following files:
 5. p2b_vero76
 6. primary_NP_swab
 
-From the command line: 
-
-```bash
-python sniffles.py -c config.yml -i 'path/to/FASTQS' -o 'output'
-```
-
-## Sniffles output files moved to new locations
-
-Raw VCFs generated from the above pipeline were copied and moved to the following location:  
-`SARS-CoV-2/SARSCoV2_passage_MS/data_derived/figure3_SNVs/VCFs_Illumina/*`
