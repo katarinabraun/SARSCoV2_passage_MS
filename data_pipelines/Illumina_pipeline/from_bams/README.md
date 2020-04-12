@@ -8,11 +8,6 @@ This file contains the config parameters as well as the commands necessary to re
 
 **Importantly, this directory contains a `sniffles.py` script which takes in the bam files available in the `data_raw` directory.**. The `-B` flag should be used to indicate that the input is alignment `bams`, instead of paired-end FASTQs. 
 
-This pipeline runs best when each bam file is placed in its own directory and that directory has the same root name as the bam files. Then the input directory should be the the directory that contains each of these directories. 
-
-For example the command would look like this: 
-
-```python sniffles.py -c /path/to/config.yml -B -i /path/to/dir/containing/one/bam/per/dir/named/identically/to/root/bam-file/name```
 
 ## Table of Contents
 * [Requirements](#requirements)
@@ -20,9 +15,17 @@ For example the command would look like this:
 * [Usage](#usage)
 
 ### Requirements
-* Linux or MacOS
+* MacOS
 * Python 3.6 or later
-* Docker
+* Docker (update Docker before running `Sniffles` by typing `conda update Docker` into the terminal)
+
+- numpy>=1.15.4
+- pandas>=0.23.4
+- Bio>=0.1.0
+- docker_py>=1.10.6
+- PyYAML>=5.1
+- slackclient>=2.0.1
+- datetime
 
 ### Installing
 * Make sure you are using the correct version of python
@@ -54,24 +57,51 @@ optional arguments:
  -i input    raw reads directory - defaults to working directory
  -o output   output directory - defaults to working directory
  -t threads  number of cpus to use for pipeline
+ -B   indicates that input will be in the form of bam files 
 ```
 
-Example usage:  
-`./sniffles.py -c config.yml -i ~/my_reads/ -t 8 -o my_results`
+### Here's how things should be set up to run this pipeline:
+
+Before running this pipeline, navigate to the directory which contains 
+- `sniffles.py`
+- `config.yml`
+- `[ref].fasta`
+- `[gtf].gtf`
+- `supporting_code/*`
+
+Naming schemes for the input files are important for getting this pipeline to run. Specifically, the reference and GTF files should contain the same rootname as the rootname of the bam file that is being fed into the file. For example, when running the `primary_NP_swab` sample, the reference fasta should be named `primary_NP_swab.fasta` and the GTF should be named `primary_NP_swab.gtf`. 
+- The ref and and gtf have to be updated with each sample. The file itself does not need to be updated, just the names of these files.
+- These filenames as well as the input file should be updated in the config file: 
+  - `outdir: 'primary_NP_swab'`
+  - `logfile: 'primary_NP_swab_logs.log'`
+  - `referenceSequences: ["primary_NP_swab.fasta"]`
+  - `gtfFileNames: ["primary_NP_swab.gtf"]`
+
+Additionally, the bam file being fed into the pipeline, `primary_NP_swab.bm` should be contained within a directory that is named `primary_NP_swab` and the directory that contains this dictory should be fed into the command. For example, if the location of the bam is `Volumes/bams/primary_NP_swab/primary_NP_swab.bam`, the -i flag should be followed by `Volumes/bams`. 
+
+The command should be run from the directory that contains `sniffles.py`, `config.yml`, etc. 
+
+Only one file should be run at a time. The script errors out if you try to run more than one at a time. 
+
+Example usage: 
+
+```bash
+python sniffles.py -c config.yml -B -i Volumes/bams
+```
 
 ## Input 
 
 Raw fastQ files:  
-`SARSCoV2_passage_MS/data_raw/Illumina_FASTQ`
+`SARSCoV2_passage_MS/data_raw/Illumina_bams/*`
 
 Config file (parameters outlined below):  
-`SARS-CoV-2/SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/config.yml`
+`SARS-CoV-2/SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/from_bams/config.yml`
 
 Reference fasta:  
-`SARSCoV2_passage_MS/data_pipelines/refs_and_GTFs/SARS2_genes.fasta`
+`SARSCoV2_passage_MS/data_pipelines/from_bams/ref.fasta`
 
 GTF file:  
-`SARSCoV2_passage_MS/data_pipelines/refs_and_GTFs/SARS2_genes.gtf`
+`SARSCoV2_passage_MS/data_pipelines/from_bams/ref.gtf`
 
 ## Output 
 
