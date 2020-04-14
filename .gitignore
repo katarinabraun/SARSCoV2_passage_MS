@@ -1,6 +1,3 @@
 .DS_Store
 data_pipelines/Illumina_pipeline/.ipynb_checkpoints/
 data_derived/figure6_ONTvsIllumina/.ipynb_checkpoints/
-documents/*
-documents
-data_raw/ONT_bams/p1_vero76/p1_vero76/p1_vero76.bam.zip
