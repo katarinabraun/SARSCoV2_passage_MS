@@ -1,3 +1,5 @@
 .DS_Store
 data_pipelines/Illumina_pipeline/.ipynb_checkpoints/
 data_derived/figure6_ONTvsIllumina/.ipynb_checkpoints/
+documents/*
+documents
