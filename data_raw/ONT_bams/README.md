@@ -1,6 +1,6 @@
 # Raw Data 
 
-All ONT bam files other than the `primary_NP_swab.bam` file exceed the 100MB GitHub file size limit. We are happy to share bam files if requested -- our contact information is on the main README in this repository. 
+All ONT bam files exceed the 50MB GitHub file size limit. We are happy to share bam files if requested -- our contact information is on the main README in this repository. 
 
 However, all raw data can be found at this bioproject: [PRJNA607948](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA607948/).   
 
